@@ -1,0 +1,13 @@
+get:
+  description: Undocumented
+  tags:
+    - Undocumented
+  security:
+    - bearerAuth: []
+  responses:
+    '400':
+      $ref: '../../../spec.yaml#/components/responses/BadRequest'
+    '401':
+      $ref: '../../../spec.yaml#/components/responses/Unauthorized'
+    '403':
+      $ref: '../../../spec.yaml#/components/responses/Forbidden'
